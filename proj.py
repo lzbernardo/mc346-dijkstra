@@ -16,7 +16,7 @@ def main():
         else:
             node0, node1, dist, maxSpd = map(str, line.split())
 
-        print(node0 + ' ' + node1 + ' ' + dist + ' ' + maxSpd)
+        print(node0, node1, dist, maxSpd)
         # splitted = list(map(str, line.split()))
         # node0 = splitted[0]
         # node1 = splitted[1]
